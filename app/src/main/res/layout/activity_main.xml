@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:id="@+id/layout3"
+        android:layout_width="410dp"
+        android:layout_height="304dp"
+        android:background="#E8DD7F"
+        android:orientation="vertical"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="426dp"></LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/layout2"
+        android:layout_width="411dp"
+        android:layout_height="206dp"
+        android:background="#C763D8"
+        android:orientation="vertical"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="219dp"></LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/layout1"
+        android:layout_width="409dp"
+        android:layout_height="217dp"
+        android:background="#4CAF50"
+        android:gravity="center"
+        android:orientation="vertical"
+        tools:layout_editor_absoluteX="1dp"
+        tools:layout_editor_absoluteY="1dp">
+
+        <TextView
+            android:id="@+id/txt1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:backgroundTint="#CB48D5"
+            android:baselineAligned="false"
+            android:text="SECHS"
+            android:textColor="#E91E63"
+            android:textSize="24sp" />
+
+        <ImageView
+            android:id="@+id/image"
+            android:layout_width="153dp"
+            android:layout_height="wrap_content"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            tools:srcCompat="@tools:sample/avatars" />
+
+        <Button
+            android:id="@+id/btn1"
+            android:layout_width="233dp"
+            android:layout_height="wrap_content"
+            android:backgroundTint="#D64770"
+            android:baselineAligned="false"
+            android:text="LMAO"
+            android:textColor="#FEFDFF" />
+    </LinearLayout>
+</android.support.constraint.ConstraintLayout>
